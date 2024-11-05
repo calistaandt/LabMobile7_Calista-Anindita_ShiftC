@@ -39,7 +39,7 @@ Cara Kerja Login Menggunakan Ionic
 
 9.  File login.page.ts untuk mengirim data login ke server.
     a.  class LoginPage: mendeklarasikan komponen LoginPage dengan properti username dan password untuk menampung input pengguna.
-        ![Kode LoginPage()](9_loginpage.jpeg)
+        ![Kode LoginPage()](9_LoginPage.jpeg)
     b.  login(): fungsi untuk memproses login dengan memeriksa apakah username dan password tidak null, serta menyusun objek data.
         ![Kode login()](9_login.jpeg)
     c.  Mengirimkan permintaan POST ke login.php menggunakan metode postMethod dari AuthenticationService. Jika login berhasil, data disimpan, dan pengguna diarahkan ke halaman home. Jika gagal, akan muncul notifikasi.
